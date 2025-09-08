@@ -36,6 +36,7 @@ go run main.go \
 
 
 ### Example output
+```
 [21:10:01] https://google.com 200 in 45.123ms
 [21:10:01] https://github.com 200 in 120.456ms
 [21:10:03] https://example.com ERROR: context deadline exceeded
@@ -43,3 +44,4 @@ go run main.go \
 requests: 12, success: 11, failed: 1
 avg latency: 90ms, min: 10ms, max: 300ms
 total runtime: 15.234s
+```
