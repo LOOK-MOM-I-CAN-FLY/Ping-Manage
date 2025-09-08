@@ -20,7 +20,7 @@ A small, fast, production-minded Go tool to **ping (HTTP HEAD/GET) many sites co
 ```bash
 go mod init github.com/you/pingparallel
 ```
-2. Create urls.txt (one URL per line, # for comments). Schemes auto-add https:// if missing.
+2. Create `urls.txt` (one URL per line, # for comments). Schemes auto-add `https://` if missing.
  
 3. Run:
 ```bash
